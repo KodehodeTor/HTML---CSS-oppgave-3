@@ -51,22 +51,22 @@ nav ul {
     rgb(180, 180, 185),
     alpha
   );
-  border: 10px solid blue;
+  outline: 5px solid blue;
 }
 
 .small-text {
   font-size: 0.7em;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 .hero-span {
-  border: 2px solid green;
+  outline: 2px solid green;
 }
 
 /* HERO BUTTONS */
 
 .hero-btn {
-  border: 1px solid yellow;
+  outline: 1px solid yellow;
 }
 
 .about-btn {
