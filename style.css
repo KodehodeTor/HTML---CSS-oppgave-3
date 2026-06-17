@@ -21,7 +21,7 @@ h1 {
   font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
-  color: white;
+  color: rgb(238, 235, 235);
   margin-bottom: 1.25rem;
 }
 
@@ -29,15 +29,16 @@ h2 {
   font-size: 2em;
   font-weight: 900;
   text-transform: uppercase;
+  color: rgb(234, 237, 238);
   /* margin-bottom: 4em; */
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
-  color: white;
+  color: rgb(238, 233, 233);
   margin-bottom: 1.25rem;
 }
 
@@ -68,7 +69,7 @@ nav ul {
   display: flex;
   gap: 2em;
   list-style: none;
-  margin: 0 10px;
+  margin: 0 0.625em;
 }
 
 .logo {
@@ -76,7 +77,7 @@ nav ul {
   font-size: 1em;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  margin: 0 10px;
+  margin: 0 0.625em;
 }
 
 nav a {
@@ -91,23 +92,32 @@ nav a:visited {
 /* HERO SECTION */
 
 .hero {
-  outline: 5px solid blue;
+  /* outline: 5px solid blue; */
   background-color: rgba(75, 73, 73, 0.5);
   border-radius: 25px;
   margin: 20px 200px;
+  border: 1px solid black;
+}
+
+.p-hero {
+  color: rgb(219, 219, 219);
+  margin: -12px 200px;
+  background-color: rgba(75, 73, 73, 0.5);
+  border-radius: 25px;
+  border: 1px solid black;
 }
 
 .big-text {
+  margin-top: -15px;
 }
 
 .small-text {
+  margin-top: 1em;
   font-size: 0.7em;
-  /* outline: 5px solid red; */
   font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: orange;
-  /* margin-bottom: 0.75em; */
 }
 
 .planet-2 .uranus-text {
@@ -116,21 +126,37 @@ nav a:visited {
 
 .hero-span {
   color: orange;
-  outline: 2px solid green;
 }
 
 /* HERO BUTTONS */
 
 .hero-btn {
-  outline: 1px solid yellow;
+  justify-content: center;
+  background-color: rgba(75, 73, 73, 0.5);
+  border-radius: 25px;
+  margin: 20px 200px;
+  border: 1px solid black;
 }
 
 .about-btn {
   padding: 0.5em;
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  background-color: orange;
+  color: white;
+  font-weight: bolder;
+  border-radius: 0.5em;
 }
 
 .contact-btn {
   padding: 0.5em;
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: orange;
+  font-weight: bolder;
+  border-radius: 0.5em;
 }
 
 .hero-img {
@@ -148,6 +174,7 @@ nav a:visited {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 20px;
   /* outline: 3px solid green; */
 }
 
@@ -207,7 +234,7 @@ nav a:visited {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: white;
+  color: rgb(231, 226, 226);
   font-size: 2rem;
   font-weight: bold;
 }
