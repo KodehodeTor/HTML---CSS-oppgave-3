@@ -7,11 +7,20 @@
 }
 
 /* GLOBAL */
+h1 {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 1.25rem;
+}
+
 h2 {
   font-size: 2em;
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 html {
@@ -34,6 +43,7 @@ nav ul {
   display: flex;
   gap: 2em;
   list-style: none;
+  margin: 0 10px;
 }
 
 .logo {
@@ -41,7 +51,18 @@ nav ul {
   font-size: 1em;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  margin: 0 10px;
 }
+
+nav a {
+  color: rgb(190, 191, 198);
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: rgb(190, 191, 198);
+}
+
 /* HERO SECTION */
 
 .hero {
@@ -52,14 +73,22 @@ nav ul {
     alpha
   );
   outline: 5px solid blue;
+  background-color: grey;
 }
 
 .small-text {
   font-size: 0.7em;
   outline: 5px solid red;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: orange;
+  margin-bottom: 0.75em;
+  padding: 0 1.25em;
 }
 
 .hero-span {
+  color: orange;
   outline: 2px solid green;
 }
 
@@ -76,4 +105,14 @@ nav ul {
 }
 
 .hero-img {
+}
+
+.cards {
+  outline: 3px solid green;
+}
+
+.card-grid {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
 }
