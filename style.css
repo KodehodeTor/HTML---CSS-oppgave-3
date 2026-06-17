@@ -7,6 +7,14 @@
 }
 
 /* GLOBAL */
+
+body {
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  line-height: 1.5;
+}
+
 h1 {
   font-size: clamp(3rem, 6vw, 5.5rem);
   font-weight: 900;
@@ -20,11 +28,18 @@ h2 {
   font-size: 2em;
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(255, 0, 0);
+}
+
+main {
 }
 
 /* NAVBAR */
@@ -66,25 +81,21 @@ nav a:visited {
 /* HERO SECTION */
 
 .hero {
-  color: rgba(
-    rgb(189, 180, 180),
-    rgb(181, 196, 181),
-    rgb(180, 180, 185),
-    alpha
-  );
   outline: 5px solid blue;
   background-color: grey;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
 }
 
 .small-text {
   font-size: 0.7em;
-  outline: 5px solid red;
+  /* outline: 5px solid red; */
   font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: orange;
   margin-bottom: 0.75em;
-  padding: 0 1.25em;
 }
 
 .hero-span {
@@ -99,9 +110,11 @@ nav a:visited {
 }
 
 .about-btn {
+  padding: 0.5em;
 }
 
 .contact-btn {
+  padding: 0.5em;
 }
 
 .hero-img {
@@ -109,10 +122,44 @@ nav a:visited {
 
 .cards {
   outline: 3px solid green;
+  padding: 0 1.75em;
 }
 
 .card-grid {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
+}
+
+.planets-pic {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.planet-fact-body {
+}
+
+.parallax-box {
+  height: 300px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  background-image: url("https://picsum.photos/1200/800?random=5");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parallax-box-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 }
