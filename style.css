@@ -52,6 +52,7 @@ p {
 
 main {
   background-color: rgb(32, 32, 32);
+  padding-top: 20px;
 }
 
 /* NAVBAR */
@@ -93,11 +94,10 @@ nav a:visited {
 /* HERO SECTION */
 
 .hero-full-content {
-  border-radius: 25px;
   margin: 20px 200px;
+  border-radius: 25px;
   justify-content: center;
   color: rgb(219, 219, 219);
-  margin: -12px 200px;
   background-color: rgba(75, 73, 73, 0.5);
   border: 1px solid black;
 }
@@ -118,10 +118,6 @@ nav a:visited {
   text-transform: uppercase;
   color: orange;
   margin-bottom: 1em;
-}
-
-.planet-2 .uranus-text {
-  color: rgb(88, 84, 84);
 }
 
 .hero-span {
@@ -208,7 +204,7 @@ nav a:visited {
 /* PARALLAX BOX */
 .parallax-box {
   margin-top: 20px;
-  height: 300px;
+  height: 400px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
