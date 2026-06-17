@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-size: 6em;
   font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
@@ -30,6 +30,15 @@ h2 {
   font-weight: 900;
   text-transform: uppercase;
   /* margin-bottom: 4em; */
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 1.25rem;
 }
 
 html {
@@ -97,6 +106,10 @@ nav a:visited {
   text-transform: uppercase;
   color: orange;
   /* margin-bottom: 0.75em; */
+}
+
+.planet-2 .uranus-text {
+  color: rgb(71, 70, 70);
 }
 
 .hero-span {
