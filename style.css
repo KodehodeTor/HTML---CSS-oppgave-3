@@ -9,7 +9,7 @@
 /* GLOBAL */
 
 body {
-  background-color: grey;
+  background-color: rgba(3, 3, 3, 0.712);
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
   line-height: 1.5;
@@ -51,6 +51,7 @@ p {
 }
 
 main {
+  background-color: rgb(32, 32, 32);
 }
 
 /* NAVBAR */
@@ -91,20 +92,18 @@ nav a:visited {
 
 /* HERO SECTION */
 
-.hero {
-  /* outline: 5px solid blue; */
-  background-color: rgba(75, 73, 73, 0.5);
+.hero-full-content {
   border-radius: 25px;
   margin: 20px 200px;
-  border: 1px solid black;
-}
-
-.p-hero {
+  justify-content: center;
   color: rgb(219, 219, 219);
   margin: -12px 200px;
   background-color: rgba(75, 73, 73, 0.5);
-  border-radius: 25px;
   border: 1px solid black;
+}
+
+.hero {
+  margin: 0 50px;
 }
 
 .big-text {
@@ -118,6 +117,7 @@ nav a:visited {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: orange;
+  margin-bottom: 1em;
 }
 
 .planet-2 .uranus-text {
@@ -131,11 +131,6 @@ nav a:visited {
 /* HERO BUTTONS */
 
 .hero-btn {
-  justify-content: center;
-  background-color: rgba(75, 73, 73, 0.5);
-  border-radius: 25px;
-  margin: 20px 200px;
-  border: 1px solid black;
 }
 
 .about-btn {
@@ -158,10 +153,7 @@ nav a:visited {
   font-weight: bolder;
   border-radius: 0.5em;
 }
-
-.hero-img {
-}
-
+/*  CARDS 1 */
 .cards {
   /* outline: 3px solid green; */
   padding: 0 1.75em;
