@@ -13,6 +13,20 @@ html {
 /* NAVBAR */
 
 nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  background-color: rgba(10, 10, 11, 0.9);
+  border-bottom: 1px solid black;
+  backrop-filter: blur(0.5em);
+  color: rgb(190, 191, 198);
+}
+
+nav ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
 }
 
 .logo {
