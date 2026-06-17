@@ -1,9 +1,17 @@
-/*  GLOBAL  */
+/*  CSS RESET  */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* GLOBAL */
+h2 {
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 2em;
 }
 
 html {
@@ -19,7 +27,6 @@ nav {
   height: 3em;
   background-color: rgba(10, 10, 11, 0.9);
   border-bottom: 1px solid black;
-  backrop-filter: blur(0.5em);
   color: rgb(190, 191, 198);
 }
 
@@ -30,25 +37,43 @@ nav ul {
 }
 
 .logo {
+  font-weight: 900;
+  font-size: 1em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 /* HERO SECTION */
 
 .hero {
+  color: rgba(
+    rgb(189, 180, 180),
+    rgb(181, 196, 181),
+    rgb(180, 180, 185),
+    alpha
+  );
+  border: 10px solid blue;
 }
 
-.hero-small-text {
+.small-text {
+  font-size: 0.7em;
+  border: 5px solid red;
 }
 
 .hero-span {
+  border: 2px solid green;
 }
 
 /* HERO BUTTONS */
 
 .hero-btn {
+  border: 1px solid yellow;
 }
 
 .about-btn {
 }
 
 .contact-btn {
+}
+
+.hero-img {
 }
