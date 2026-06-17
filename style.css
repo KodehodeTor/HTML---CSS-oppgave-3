@@ -96,7 +96,7 @@ nav a:visited {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: orange;
-  margin-bottom: 0.75em;
+  /* margin-bottom: 0.75em; */
 }
 
 .hero-span {
@@ -160,6 +160,7 @@ nav a:visited {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
 }
 
 .parallax-box-text {
@@ -172,7 +173,7 @@ nav a:visited {
 }
 
 .fact-description {
-  outline: 2px solid blue;
+  outline: 2px solid purple;
   text-decoration: none;
   color: rgb(190, 191, 198);
 }
