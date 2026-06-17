@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 4em;
   font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
@@ -92,10 +92,12 @@ nav a:visited {
 
 .hero {
   outline: 5px solid blue;
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
+  background-color: rgba(75, 73, 73, 0.5);
   border-radius: 25px;
+  margin: 20px 200px;
+}
+
+.big-text {
 }
 
 .small-text {
@@ -109,7 +111,7 @@ nav a:visited {
 }
 
 .planet-2 .uranus-text {
-  color: rgb(71, 70, 70);
+  color: rgb(88, 84, 84);
 }
 
 .hero-span {
@@ -152,7 +154,7 @@ nav a:visited {
 .planet-1 {
   border: 1px solid black;
   border-radius: 20px;
-  background-color: rgb(96, 96, 114);
+  background-color: rgba(96, 96, 114, 0.5);
   width: 300px;
   height: 300px;
 }
@@ -160,7 +162,7 @@ nav a:visited {
 .planet-2 {
   border: 1px solid black;
   border-radius: 20px;
-  background-color: rgb(179, 175, 175);
+  background-color: rgba(179, 175, 175, 0.5);
   width: 300px;
   height: 300px;
 }
@@ -168,7 +170,7 @@ nav a:visited {
 .planet-3 {
   border: 1px solid black;
   border-radius: 20px;
-  background-color: rgb(145, 126, 126);
+  background-color: rgba(145, 126, 126, 0.5);
   width: 300px;
   height: 300px;
 }
